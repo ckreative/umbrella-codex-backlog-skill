@@ -15,7 +15,7 @@ codex-skills/
 
 ```bash
 python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --url https://github.com/<owner>/<repo>/tree/main/codex-skills
+  --url https://github.com/ckreative/codex-skills/tree/main/codex-skills
 ```
 
 After install, restart Codex.
@@ -30,4 +30,3 @@ This skill is meant to be used while working inside the Umbrella backlog project
 - `bash scripts/db/psql.sh`
 
 The skill does not bundle the Umbrella database project itself. It only bundles the Codex skill that knows how to operate that project.
-
