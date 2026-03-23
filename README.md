@@ -11,6 +11,25 @@ python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github
 
 After install, restart Codex.
 
+## What It Does
+
+Gives Codex full knowledge of the Umbrella backlog system:
+
+- Write operations — create epics, tickets, tags; assign work; transition status; log work
+- Read operations — query the backlog, sync views, blocked tickets, workload summaries
+- Tag taxonomy — platform tags (`mobile`, `desktop`, `cross-platform`, `backend`, `ai`) and domain tags (`domain-navigation`, `domain-workspaces`, `domain-org-identity`, `domain-invites`, `domain-project-creation`, `domain-call-sheet-read`, `domain-call-sheet-create`, `domain-document-automation`, `domain-ai-requirements`, `domain-onboarding`)
+- Team workflows — intake roadmap work, run product-engineering sync, slice by tags
+
+## What You Can Ask
+
+- "Show me the current backlog"
+- "List tickets in epic W2-E10"
+- "What's blocked?"
+- "Show mobile platform work"
+- "Create a ticket for..."
+- "Assign ticket CS-01 to alex"
+- "What did alex work on last week?"
+
 This repo intentionally contains only the installable skill payload:
 
 ```text
