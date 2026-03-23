@@ -2,6 +2,15 @@
 
 Portable Codex skill package for operating the Umbrella engineering backlog.
 
+If you are sending this repo to a teammate, send them this install command:
+
+```bash
+python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+  --url https://github.com/ckreative/umbrella-codex-backlog-skill/tree/main/umbrella-codex-backlog-skill
+```
+
+After install, restart Codex.
+
 This repo intentionally contains only the installable skill payload:
 
 ```text
@@ -13,10 +22,18 @@ umbrella-codex-backlog-skill/
 
 ## Install
 
+Use this exact command:
+
 ```bash
 python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --url https://github.com/ckreative/umbrella-codex-backlog-skill/tree/main/umbrella-codex-backlog-skill
 ```
+
+Why the folder URL instead of just the repo URL?
+
+Because the installer needs the path to the actual skill folder. In this repo, the installable skill lives in:
+
+`umbrella-codex-backlog-skill/`
 
 After install, restart Codex.
 
