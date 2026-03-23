@@ -1,0 +1,4 @@
+interface:
+  display_name: "Umbrella Codex Backlog Skill"
+  short_description: "Run the Umbrella backlog through Codex"
+  default_prompt: "Use $umbrella-codex-backlog-skill to manage the Umbrella backlog, import specs, tag work, and report on team execution."

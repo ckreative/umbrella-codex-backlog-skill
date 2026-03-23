@@ -1,9 +1,9 @@
 ---
-name: codex-skills
+name: umbrella-codex-backlog-skill
 description: Use when operating the Umbrella engineering backlog for team-scale planning and execution. Covers creating epics and tickets, importing roadmap specs, tagging by platform or domain, reporting by developer or epic, and preparing product-engineering sync views.
 ---
 
-# Codex Skills
+# Umbrella Codex Backlog Skill
 
 Use this skill when the team is managing shared delivery work in the Umbrella backlog system.
 
@@ -63,4 +63,4 @@ Use tags to answer planning questions quickly:
 - Preserve external ticket keys when importing a structured spec if they are already meaningful.
 - Prefer stable repo scripts and SQL functions over ad hoc schema edits.
 - Keep the backlog easy to query: one clear epic, feature-sized tickets, explicit tags, and current status.
-- When asked to share this skill, point teammates at the GitHub path containing `skills/codex-skills` and have them install from that path.
+- When asked to share this skill, point teammates at the GitHub path containing `umbrella-codex-backlog-skill` and have them install from that path.

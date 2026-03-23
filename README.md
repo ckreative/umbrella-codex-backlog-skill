@@ -1,11 +1,11 @@
-# Codex Skills
+# Umbrella Codex Backlog Skill
 
 Portable Codex skill package for operating the Umbrella engineering backlog.
 
 This repo intentionally contains only the installable skill payload:
 
 ```text
-codex-skills/
+umbrella-codex-backlog-skill/
 ├── SKILL.md
 ├── agents/openai.yaml
 └── references/backlog-surface.md
@@ -15,7 +15,7 @@ codex-skills/
 
 ```bash
 python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
-  --url https://github.com/ckreative/codex-skills/tree/main/codex-skills
+  --url https://github.com/ckreative/umbrella-codex-backlog-skill/tree/main/umbrella-codex-backlog-skill
 ```
 
 After install, restart Codex.

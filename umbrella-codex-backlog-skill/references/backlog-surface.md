@@ -1,6 +1,6 @@
 # Backlog Surface
 
-Use this reference when operating the Umbrella backlog through the `codex-skills` skill.
+Use this reference when operating the Umbrella backlog through the `umbrella-codex-backlog-skill` skill.
 
 ## Repo
 
